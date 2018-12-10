@@ -29,7 +29,7 @@ function preload() {
   // youtubeData = loadTable('subscribers_geo.csv', 'header');
   youtubeData = loadTable('watch_time_geo.csv', 'header');
   countries = loadJSON('countries.json');
-  peapole = loadTable('watch_time_geo.csv', 'header');
+  peapole = loadTable('libyan_peaplation.csv', 'header');
 }
 
 function setup() {
