@@ -67,6 +67,14 @@ function processData() {
     case 'watch_time_minutes':
       currentColor = color(200, 0, 100, 100);
       break;
+      
+      
+      case 'libyan_peaplation.csv':
+      currentColor = color(10, 255, 10, 100);
+      break; 
+      
+      
+      
   }
 
   let maxValue = 0; // changed to something more generic, as we no longer only work with subs
