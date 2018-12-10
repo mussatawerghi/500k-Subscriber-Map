@@ -69,7 +69,7 @@ function processData() {
       break;
       
       
-      case 'libyan_peaplation.csv':
+      case 'libyan_peaplation':
       currentColor = color(10, 255, 10, 100);
       break; 
       
