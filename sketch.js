@@ -7,6 +7,7 @@
 
 let youtubeData;
 let countries;
+let peapole;
 
 const mappa = new Mappa('Leaflet');
 let trainMap;
@@ -28,6 +29,7 @@ function preload() {
   // youtubeData = loadTable('subscribers_geo.csv', 'header');
   youtubeData = loadTable('watch_time_geo.csv', 'header');
   countries = loadJSON('countries.json');
+  peapole = loadTable('watch_time_geo.csv', 'header');
 }
 
 function setup() {
